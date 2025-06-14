@@ -1,0 +1,111 @@
+.container {
+  max-width: 650px;
+  margin: 2em auto;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 16px rgba(70,70,90,0.08);
+  padding: 2em;
+  word-break: break-word;
+  box-sizing: border-box;
+  width: 95vw;
+}
+
+textarea {
+  width: 100%;
+  font-size: 1.05em;
+  margin-bottom: 1em;
+  resize: vertical;
+}
+
+button {
+  background: #1e90ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.55em 1.2em;
+  margin: 0.5em 0;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+button[disabled] { background: #cbe3ff; }
+button:not([disabled]):hover { background: #005acb; }
+
+.output {
+  margin: 2em 0 1em 0;
+  background: #f7f9fa;
+  border-radius: 8px;
+  padding: 1.3em 1.3em 0.7em 1.3em;
+  box-shadow: 0 2px 8px rgba(100,120,180,0.06);
+  max-width: 100%;
+  word-break: break-word;
+  overflow-x: auto;
+  box-sizing: border-box;
+}
+
+.priority-section {
+  margin-bottom: 1.5em;
+}
+
+.qa-section {
+  margin: 2em 0 1em 0;
+  display: flex;
+  gap: 0.6em;
+}
+.qa-section input[type="text"] {
+  flex: 1;
+  font-size: 1em;
+  padding: 0.7em 0.9em;
+  border-radius: 6px;
+  border: 1px solid #c3d8ee;
+  margin-right: 0.5em;
+}
+
+.todo-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+.todo-card {
+  background: #fff;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  padding: 1em 1.1em 0.7em 1.1em;
+  box-shadow: 0 1px 6px rgba(50,52,100,0.08);
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  word-break: break-word;
+  box-sizing: border-box;
+}
+
+.todo-title {
+  font-size: 1.09em;
+  font-weight: 600;
+  margin-bottom: 0.3em;
+}
+
+.todo-desc {
+  color: #555;
+  font-size: 0.99em;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.wrapped-pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+footer {
+  text-align: center;
+  color: #888;
+  font-size: 0.96em;
+  margin: 2.5em 0 0.5em 0;
+}
